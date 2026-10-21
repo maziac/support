@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PingAll – Support</title>
+<meta name="description" content="Support for PingAll, the menu bar app that shows which devices in your network are reachable.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>PingAll</h1>
+    <p>See every device in your network at a glance</p>
+  </div>
+</header>
+<nav>
+  <a href="privacy.html">Privacy</a>
+</nav>
+
+<section>
+  <h2>Support</h2>
+  <p>Do you have a question, a problem or a suggestion? Send me an email:</p>
+  <p><a class="mail" href="mailto:support.tb@icloud.com?subject=PingAll%20%E2%80%93%20Question%2FProblem&amp;body=Description%20of%20the%20problem%3A%0A%0A%0A%0AApp%20version%3A%0AmacOS%2FiOS%20version%3A%0ANetwork%20%28e.g.%20192.168.1.0%2F24%29%3A%0A">support.tb@icloud.com</a></p>
+  <p class="small">Please include: app version, macOS or iOS version, the network you scan (e.g. 192.168.1.0/24) and a short description of what you did and what happened.</p>
+
+  <h3>Only my router and my own device are shown as reachable</h3>
+  <p>PingAll needs permission to access the local network. Without it, the system silently blocks the pings. Allow it in System Settings → Privacy &amp; Security → Local Network (on iPhone/iPad: Settings → Privacy &amp; Security → Local Network) and turn on PingAll. Results appear with the next refresh.</p>
+
+  <h3>The internet row shows a failure</h3>
+  <p>PingAll pings the internet check target (8.8.8.8 by default) on every refresh. If your network blocks pings to the internet, enter another host as “Internet check target” in the settings, for example your provider's DNS server.</p>
+
+  <h3>Some devices never answer</h3>
+  <p>Many devices (some phones, computers with a firewall, printers in standby) do not reply to pings. They are not shown as reachable even though they are on the network.</p>
+
+  <h3>The internet connection drops while scanning a large network</h3>
+  <p>Networks larger than /24 that reach beyond your own subnet are scanned through the router, which can overload it. Use the smallest network that covers your devices. PingAll asks for confirmation before such a scan.</p>
+
+  <h3>Hostnames or vendors are missing</h3>
+  <p>Hostnames come from your router's DNS and from Bonjour; devices that announce no name are shown by IP address only. The vendor is derived from the MAC address and is only available on the Mac – iOS does not give apps access to MAC addresses.</p>
+
+  <h3>Subscription and purchase</h3>
+  <p>Purchases are handled by the App Store. To restore a purchase, use “Restore Purchases” (or “Restore”) in the app. To cancel a subscription, open your App Store account settings → Subscriptions.</p>
+</section>
+
+<footer>
+  <p><a href="privacy.html">Privacy</a> · © 2026 Thomas Busse</p>
+</footer>
+</main>
+</body>
+</html>

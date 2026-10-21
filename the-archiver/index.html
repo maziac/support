@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de" data-title-de="The Archiver – Support" data-title-en="The Archiver – Support">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Archiver – Support</title>
+<meta name="description" content="Support für The Archiver, die Mac-App zum Scannen, Erkennen und Archivieren von Dokumenten.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+<script src="lang.js"></script>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>The Archiver</h1>
+    <p data-lang="de">Scannen, erkennen, archivieren – für den Mac</p>
+    <p data-lang="en">Scan, recognize, archive – for the Mac</p>
+  </div>
+</header>
+<nav>
+  <span class="switch" role="group" aria-label="Sprache / Language">
+    <button type="button" data-switch="de">Deutsch</button>
+    <button type="button" data-switch="en">English</button>
+  </span>
+  <a href="privacy.html" data-keep-lang><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+</nav>
+
+<section data-lang="de">
+  <h2>Support</h2>
+  <p>Du hast eine Frage, ein Problem oder einen Verbesserungsvorschlag? Schreib mir eine E-Mail:</p>
+  <p><a class="mail" href="mailto:support.tb@icloud.com?subject=The%20Archiver%20%E2%80%93%20Frage%2FProblem&amp;body=Beschreibung%20des%20Problems%3A%0A%0A%0A%0AApp-Version%20%28Einstellungen%20%E2%86%92%20%C3%9Cber%29%3A%0AmacOS-Version%3A%0AScanner-Modell%3A%0A">support.tb@icloud.com</a></p>
+  <p class="small">Hilfreich sind: App-Version (Einstellungen → Über), macOS-Version, Scanner-Modell und eine kurze Beschreibung, was du getan hast und was passiert ist. Bitte schicke keine Dokumente mit persönlichen Daten mit.</p>
+
+  <h3>Der Scanner wird nicht gefunden</h3>
+  <p>The Archiver nutzt die Scanner-Unterstützung von macOS (Image Capture / AirScan). Prüfe, ob der Scanner in der App „Digitale Bilder“ erscheint und dort scannen kann. Netzwerkscanner müssen im selben Netz sein; beim ersten Start fragt macOS, ob die App auf das lokale Netzwerk zugreifen darf – das muss erlaubt sein (Systemeinstellungen → Datenschutz &amp; Sicherheit → Lokales Netzwerk).</p>
+
+  <h3>„Verbindung fehlgeschlagen“ beim Scannen</h3>
+  <p>Ein anderes Programm hält den Scanner gerade belegt. Beende andere Scan-Programme und versuche es erneut.</p>
+
+  <h3>Es werden keine Titel, Beschreibungen oder Kategorien vorgeschlagen</h3>
+  <p>Diese Vorschläge kommen von Apple Intelligence und brauchen macOS 26 mit eingeschalteter Apple Intelligence (Systemeinstellungen → Apple Intelligence &amp; Siri). Alles andere funktioniert auch ohne; das Datum wird trotzdem aus dem Text erkannt.</p>
+
+  <h3>Wo liegen meine Dokumente?</h3>
+  <p>In dem Archivordner, den du in den Einstellungen (⌘,) wählst. Es ist ein normaler Ordner mit PDF-Dateien, die jedes Programm öffnen kann. Alle Angaben (Titel, Datum, Kategorien) stehen im PDF selbst.</p>
+
+  <h3>Nach einem Update fehlt mein Archiv</h3>
+  <p>Wähle den Archiv- und den Eingangsordner in den Einstellungen einmal neu aus. macOS erlaubt einer App den Zugriff nur auf Ordner, die du selbst ausgewählt hast.</p>
+</section>
+
+<section lang="en" data-lang="en">
+  <h2>Support</h2>
+  <p>Do you have a question, a problem or a suggestion? Send me an email:</p>
+  <p><a class="mail" href="mailto:support.tb@icloud.com?subject=The%20Archiver%20%E2%80%93%20Question%2FProblem&amp;body=Description%20of%20the%20problem%3A%0A%0A%0A%0AApp%20version%20%28Settings%20%E2%86%92%20About%29%3A%0AmacOS%20version%3A%0AScanner%20model%3A%0A">support.tb@icloud.com</a></p>
+  <p class="small">Please include: app version (Settings → About), macOS version, scanner model and a short description of what you did and what happened. Please do not attach documents containing personal data.</p>
+  <p class="small">Note: the app's user interface is in German.</p>
+
+  <h3>The scanner is not found</h3>
+  <p>The Archiver uses the scanner support built into macOS (Image Capture / AirScan). Check that the scanner appears in the “Image Capture” app and can scan there. Network scanners must be on the same network; on first launch macOS asks whether the app may access the local network – this must be allowed (System Settings → Privacy &amp; Security → Local Network).</p>
+
+  <h3>“Connection failed” when scanning</h3>
+  <p>Another program is currently using the scanner. Quit other scanning apps and try again.</p>
+
+  <h3>No titles, descriptions or categories are suggested</h3>
+  <p>These suggestions come from Apple Intelligence and require macOS 26 with Apple Intelligence turned on (System Settings → Apple Intelligence &amp; Siri). Everything else works without it; the date is still detected from the text.</p>
+
+  <h3>Where are my documents?</h3>
+  <p>In the archive folder you choose in Settings (⌘,). It is a regular folder of PDF files that any app can open. All details (title, date, categories) are stored inside the PDFs.</p>
+
+  <h3>My archive is missing after an update</h3>
+  <p>Select the archive and inbox folders in Settings once more. macOS only lets an app access folders you have chosen yourself.</p>
+</section>
+
+<footer>
+  <p><a href="privacy.html" data-keep-lang><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a> · © 2026 Thomas Busse</p>
+</footer>
+</main>
+</body>
+</html>
